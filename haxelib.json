@@ -1,0 +1,12 @@
+{
+  "name" : "haxe-custom",
+  "url" : "https://github.com/starburst997/haxe-custom",
+  "license" : "MIT",
+  "tags": ["haxe"],
+  "description" : "Custom fix for Haxe",
+  "version" : "0.0.1",
+  "releasenote" : "",
+  "contributors" : ["starburst997"],
+  "dependencies" : {
+  }
+}

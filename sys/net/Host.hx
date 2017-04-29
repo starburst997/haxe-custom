@@ -34,12 +34,12 @@ class Host {
 
 	public function new( name : String ) : Void {
 		host = name;
-		trace('IPV6 FIX IPV6 FIX');
+
 		try {
 			ip = NativeSocket.host_resolve(name);
 		} catch(e:Dynamic) { }
 
-     	try {
+   	try {
 			ipv6 = NativeSocket.host_resolve_ipv6(name);
 		}catch(e:Dynamic){ }
 	}
